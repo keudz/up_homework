@@ -23,7 +23,7 @@ public class quanlysv {
     }
 
     public void hienthisv() throws danhsachchong {
-        if (students.isEmpty()) {
+        if (students.isEmpty()) {// hàm is.empty kiểm tra xem dãy có chống không chong trả v true nhiều hơn 1 giá trị trả về flase
             throw new danhsachchong("The student list is empty.");
         }
         System.out.println("Student List:");
